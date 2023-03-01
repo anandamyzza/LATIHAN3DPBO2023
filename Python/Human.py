@@ -21,7 +21,7 @@ class Human:
     def setNIK(self, NIK):
         self.__NIK = NIK
 
-    # Setter & Getter untuk NIK Nama.
+    # Setter & Getter untuk Nama.
     def getName(self):
         return self.__name
 
