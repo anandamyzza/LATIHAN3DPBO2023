@@ -36,21 +36,21 @@ class Dosen(SivitasAkademik):  # Dosen mewarisi Sivitas Akademik.
     def setFaculty(self, faculty):
         self.__faculty = faculty
 
-    # Setter & Getter untuk Prodi.
+    # Setter & Getter untuk Major/Prodi.
     def getMajor(self):
         return self.__major
 
     def setMajor(self, major):
         self.__major = major
 
-    # Setter & Getter untuk pend_terakhir.
+    # Setter & Getter untuk Pendidikan Terakhir.
     def getPend_terakhir(self):
         return self.__pend_terakhir
 
     def setPend_terakhir(self, pend_terakhir):
         self.__pend_terakhir = pend_terakhir
 
-    # Setter & Getter untuk keahlian.
+    # Setter & Getter untuk Keahlian.
     def getKeahlian(self):
         return self.__keahlian
 
