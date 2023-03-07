@@ -26,9 +26,13 @@ _Note: **Class Mahasiswa** dan **Dosen** tetap memiliki atribut faculty (Fakulta
 6. **Class ProgramStudi** memiliki 3 atribut yaitu nama_prodi (Nama Program Studi dari Kumpulan Mata Kuliah), kode (Kode Program Studi), dan course (Kumpulan mata kuliah `list<Course>` pada program studi tertentu). **Class ProgramStudi** memiliki data-data kumpulan mata kuliah yang hadir dalam program studi tersebut, sehingga **Class ProgramStudi** memiliki **Class Course**. Setiap atribut pada class ini diberi setter dan getter.
 
 ## Alur Program
-Input data dilakukan secara manual/hardcode pada file **Main.cpp/.py** berupa instansiasi object dari class yang ada. Lalu output akan menampilkan data secara lengkap dari suatu Program Studi beserta data mata kuliah, dosen yang mengampu mata kuliah, dan mahasiswa yang mengontrak mata kuliah tersebut. Inputan dilakuan secara berurut dari menginput data dosen, mahasiswa, mata kuliah, program studi, lalu memasukan data-data tersebut ke dalam variabel list yang dinamakan listProdi.
+Input data dilakukan secara manual/hardcode pada file **Main.cpp/.py** berupa instansiasi object dari class yang ada. Lalu output akan menampilkan data secara lengkap dari suatu Program Studi beserta data mata kuliah, dosen yang mengampu mata kuliah, dan mahasiswa yang mengontrak mata kuliah tersebut. Inputan dilakukan secara berurut dari menginput data dosen, mahasiswa, mata kuliah, program studi, lalu memasukan data-data tersebut ke dalam variabel list yang dinamakan listProdi.
 
 ## Dokumentasi
 #### 1. Python
 ![Dokumentasi_1](https://user-images.githubusercontent.com/100767177/222172065-a72e4fb2-bd8d-4d9f-b907-bc3558585fe6.png)
 ![Dokumentasi_2](https://user-images.githubusercontent.com/100767177/222172073-d0e9e7d9-70d3-4025-b84c-f1377e2abd02.png)
+
+#### 2. C++
+![Dokumentasi_1](https://user-images.githubusercontent.com/100767177/223481531-1d21d4dc-5564-4705-afd8-57f504b05973.png)
+![Dokumentasi_2](https://user-images.githubusercontent.com/100767177/223481573-9a84ebe3-e799-43e0-acda-5b7f5cc6eebc.png)
